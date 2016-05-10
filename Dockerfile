@@ -1,6 +1,6 @@
 #use the golang base image
 FROM golang:1.6
-MAINTAINER Daniël van Gils
+MAINTAINER Daniel van Gils
 
 #gat all the go testing stuff
 RUN go get github.com/gin-gonic/gin
