@@ -1,4 +1,4 @@
-#use the golang base image
+#use the alpine base image
 FROM alpine:3.3
 MAINTAINER Daniel van Gils
 RUN mkdir -p /app
